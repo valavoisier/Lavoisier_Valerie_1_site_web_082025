@@ -126,13 +126,20 @@ input[type="submit"] {
     margin: auto;
     color: white;
     background: black;
-    border: none;
+    border: 1px solid black;
     width: 120px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     padding: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+input[type="submit"]:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
 
 @media (max-width: 850px) {
     .oeuvre {
